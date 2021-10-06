@@ -74,6 +74,9 @@
 .social_media .hamburger_menu {
    display: none;
 }
+.social_media .hamburger_menu li {
+   cursor: pointer;
+}
 .facebook {
    color: #3b5998;
 }

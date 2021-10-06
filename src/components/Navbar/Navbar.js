@@ -57,12 +57,9 @@ const Navbar = () => {
                   </li>
                </ul>
                <div className="hamburger_menu">
-                  <a
-                     href="#"
-                     onClick={() => setShowMediaIcons(!showMediaIcons)}
-                  >
+                  <li onClick={() => setShowMediaIcons(!showMediaIcons)}>
                      <BiAlignRight />
-                  </a>
+                  </li>
                </div>
             </div>
          </nav>
